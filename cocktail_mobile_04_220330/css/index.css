@@ -1,0 +1,21 @@
+#re{
+  width: inherit;
+  height:inherit;
+  display: flex;
+  flex-direction: column;
+justify-content: space-around;
+align-items: center;
+}
+/* display는 자식테그에만 영향을 줌 */
+#re>div{
+  background-color: #c8c8c8;
+}
+#re>div:nth-child(2){
+  width:100%;
+  height: 30%;
+}
+#re>div{
+  width:90%;
+  height: 9%;
+  /* display:block; */
+}
